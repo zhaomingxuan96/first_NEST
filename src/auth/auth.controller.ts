@@ -16,9 +16,9 @@ import {
   CreateCatDto,
   UpdateCatDto,
   ListAllEntities,
-} from './dto/create-cat.dto';
-import { CatsService } from './cats.service';
-import { Cat } from './interface/cat.interface';
+} from './dto/create-auth.dto';
+import { CatsService } from './auth.service';
+import { Cat } from './interface/auth.interface';
 
 @Controller('cats')
 export class CatsController {
